@@ -1,116 +1,66 @@
-/* Bordered form */
-form {
-  border: 3px solid #f1f1f1;
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0EDE8;
+  font-family: Arial, sans-serif;
 }
 
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: lightcoral;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
-}/* Bordered form */
-form {
-  border: 3px solid #b18b8b;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #e7e5e5;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: lightcoral;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
+h1 {
+  font-size: 15px;
+  color: #9E9890;
   text-align: center;
-  margin: 24px 0 12px 0;
+  margin: 0 0 0.25rem;
 }
 
-/* Add padding to containers */
+h2 {
+  font-size: 22px;
+  color: #3A3632;
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  color: #8C877F;
+  margin-bottom: 6px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 0 0 1rem;
+  border: 1px solid #DDD9D3;
+  border-radius: 8px;
+  background-color: #F4F1ED;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 0.5rem;
+  background-color: #8C7B72;
+  color: #FAFAF8;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7A6B63;
+}
+
 .container {
-  padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
+  background: #FAFAF8;
+  border: 1px solid #DDD9D3;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  width: 300px;
 }

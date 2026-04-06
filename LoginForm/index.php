@@ -7,19 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Gracevil Jade H. Capricho</h1>
     <div class="container">
-    <label for="username"><b>Username:</b></label>
-    <input type="text" placeholder="Enter Username" name="" required>
+        <h1>Gracevil Jade H. Capricho</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required>
 
-    <label for="psw"><b>Password:</b></label>
-    <input type="password" placeholder="Enter Password" name="" required>
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="password" placeholder="Enter Password" required>
 
-    <button type="submit">Login</button>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-</div>
-
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>
